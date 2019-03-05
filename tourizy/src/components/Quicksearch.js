@@ -62,7 +62,7 @@ class Quicksearch extends Component {
                 {/*Popular Models*/}
                 <div className='container'>
                     <p className='flow-text'>Popular Models</p>
-                    <Slideshow />
+                  <Slideshow />
                 </div>
                 <br></br><br></br><br></br><br></br>
                 {/*Popular Models Ended*/}
