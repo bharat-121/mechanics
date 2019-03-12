@@ -4,7 +4,7 @@ import Quicksearch from './components/Quicksearch'
 import Hello from './components/Hello'
 import Navbar from './components/Navbar'
 import './App.css'
-import {BrowserRouter} from 'react-router-dom'
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
 class App extends Component {
   render() {
     return (

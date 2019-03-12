@@ -3,6 +3,7 @@ import './materialize-social.css'
 import Slideshow from './fade'
 
 
+
 class Quicksearch extends Component {
 
 
@@ -10,10 +11,9 @@ class Quicksearch extends Component {
         return (
 
             <div>
-
                 {/*Quick Searches*/}
                 <div className='container'>
-                    <p className='flow-text'>Quick Searches</p>
+                    <p className='flow-text left-align'>Quick Searches</p>
                     <div className='card'>
                         <div className='card-content'>
                             <div className='row'>
@@ -61,7 +61,7 @@ class Quicksearch extends Component {
 
                 {/*Popular Models*/}
                 <div className='container'>
-                    <p className='flow-text'>Popular Models</p>
+                    <p className='flow-text left-align'>Popular Models</p>
                     <Slideshow />
                 </div>
                 <br></br><br></br><br></br><br></br>
@@ -91,7 +91,7 @@ class Quicksearch extends Component {
                                     <a className="waves-effect waves-light btn-floating social twitter">
                                         <i className="fa fa-twitter"></i></a>
 
-
+                      
                                 </div>
 
                                 <div className='col l2 s2'>
