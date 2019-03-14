@@ -4,49 +4,6 @@ h1{
     text-align: center;
 }
 
-<<<<<<< HEAD
-.App {
-    text-align: center;
-  }
-  
-  .nav{
-    background:url('./components/car.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  
-  
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
-=======
 header{
     background:url('./components/images/car.jpg');
     background-size: cover;
@@ -59,4 +16,3 @@ header{
     min-height: 250px;
   }
 }
->>>>>>> f49c660b5a6d46b8270d554f38d2abafcd4f63e6

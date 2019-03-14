@@ -3,11 +3,7 @@ import { Fade } from 'react-slideshow-image';
 import pic1 from './images/pic1.jpg'
 import pic2 from './images/pic2.jpg'
 import pic3 from './images/pic3.jpg'
-<<<<<<< HEAD
-
-=======
 import pic4 from './images/car.jpg'
->>>>>>> f49c660b5a6d46b8270d554f38d2abafcd4f63e6
 
 
 const fadeProperties = {

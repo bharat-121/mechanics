@@ -1,31 +1,7 @@
-
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom'
-<<<<<<< HEAD
-import './components.css';
-
-class Navbar extends Component {
-    render() {
-        return (
-            <div>
-                <br />
-                <h5>
-                    <NavLink to="/" className="white-text">Sign In&nbsp;&nbsp;&nbsp;</NavLink>
-                    <NavLink to="/" className="white-text link2">Create Account</NavLink>
-                </h5><br /><br /><br /><br />
-                <h3 className="white-text center">Find the best mechanics here.</h3>
-                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-            </div>
-        )
-    }
-}
-
-=======
 import M from "materialize-css/dist/js/materialize.min.js";
 import "materialize-css/dist/css/materialize.min.css";
-import $ from 'jquery'
 
 class Navbar extends Component {
     componentDidMount() {
@@ -56,5 +32,4 @@ class Navbar extends Component {
     }
 }
 
->>>>>>> f49c660b5a6d46b8270d554f38d2abafcd4f63e6
 export default Navbar
