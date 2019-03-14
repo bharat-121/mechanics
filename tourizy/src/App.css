@@ -4,6 +4,7 @@ h1{
     text-align: center;
 }
 
+<<<<<<< HEAD
 .App {
     text-align: center;
   }
@@ -45,3 +46,17 @@ h1{
     }
   }
   
+=======
+header{
+    background:url('./components/images/car.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+} 
+
+@media screen and (max-width:670px){
+  header{
+    min-height: 250px;
+  }
+}
+>>>>>>> f49c660b5a6d46b8270d554f38d2abafcd4f63e6

@@ -3,6 +3,7 @@ import './materialize-social.css'
 import Slideshow from './fade'
 
 
+
 class Quicksearch extends Component {
 
 
@@ -10,46 +11,45 @@ class Quicksearch extends Component {
         return (
 
             <div>
-
                 {/*Quick Searches*/}
                 <div className='container'>
-                    <p className='flow-text'>Quick Searches</p>
+                    <p className='flow-text left-align'>Quick Searches</p>
                     <div className='card'>
                         <div className='card-content'>
                             <div className='row'>
-                            
-                                    <div className='col s6 m4 l3 x2'>
 
-                                       
-                                            <i className='pink-text medium material-icons'>settings
+                                <div className='col l3 s6 m3'>
+
+
+                                    <i className='pink-text medium material-icons'>settings
                                             </i>
-                                       
-                                            Service
-                                   
-                                    </div>
+                                    <div>
+                                        Service
+                                   </div>
+                                </div>
 
-                                    <div className='col s6 m4 l3 x2'>
+                                <div className='col l3 s6 m3'>
 
-                                        <i className='pink-text medium material-icons '>add_shopping_cart
+                                    <i className='pink-text medium material-icons '>add_shopping_cart
                                               </i>
-                                        Rent
-                                    </div>
+                                    <div>Rent</div>
+                                </div>
 
-                                    <div className='col s6 m4 l3 x2'>
-                                        <i className='pink-text medium material-icons'>card_giftcard
+                                <div className='col l3 s6 m3'>
+                                    <i className='pink-text medium material-icons'>card_giftcard
                                     </i>
-                                        
-                                            Give On Rent
-                                   
-                                    </div>
 
-                                    <div className='col s6 m4 l3'>
-                                        <i className='pink-text medium material-icons'>business_center
+                                    <div>  Give On Rent
+                                   </div>
+                                </div>
+
+                                <div className='col l3 s6 m3'>
+                                    <i className='pink-text medium material-icons'>business_center
                     </i>
 
-                                       
-                                            Sell To US
-                                   
+
+                                    <div>  Sell To US
+                                         </div>
                                 </div>
                             </div>
                         </div>
@@ -61,44 +61,52 @@ class Quicksearch extends Component {
 
                 {/*Popular Models*/}
                 <div className='container'>
+<<<<<<< HEAD
                     <p className='flow-text'>Popular Models</p>
                   <Slideshow />
+=======
+                    <p className='flow-text left-align'>Popular Models</p>
+                    <Slideshow />
+>>>>>>> f49c660b5a6d46b8270d554f38d2abafcd4f63e6
                 </div>
                 <br></br><br></br><br></br><br></br>
                 {/*Popular Models Ended*/}
                 {/* footer started*/}
 
                 <footer className="page-footer grey darken-1">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col l6 s12">
-                                <h5>About Us</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+
+                    <div className="row">
+                        <div className="col l6 s12">
+                            <h5 className='center-align'>About Us</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+                        </div>
+                        <div className="col l6 s12">
+                            <div className='row'>
+                                <h5 className="white-text center-align" >Connect Using</h5>
                             </div>
-                            <div className="col l4 offset-l2 s12">
-                                <h5 className="white-text">Connect</h5>
-                             <div className='row'>
-                             <div className='col'>
-                              <a className="waves-effect waves-light btn-floating social facebook">
-                                            <i className="fa fa-facebook"></i></a>
-                                            </div>
 
-                             <div className='col'>
-                                          <a className="waves-effect waves-light btn-floating social twitter">
-                                                <i className="fa fa-twitter"></i></a>
+                            <div className='row'>
+                                <div className='col l2 offset-l3 offset-s3 s2'>
+                                    <a className="waves-effect waves-light btn-floating social facebook">
+                                        <i className="fa fa-facebook"></i></a>
+                                </div>
 
-                                               
-</div>
+                                <div className='col l2 s2'>
+                                    <a className="waves-effect waves-light btn-floating social twitter">
+                                        <i className="fa fa-twitter"></i></a>
 
-<div className='col'>
-                                            <a className="waves-effect waves-light btn-floating social instagram">
-                                                <i className="fa fa-instagram"></i></a>
-</div>
-                                                </div>
+                      
+                                </div>
+
+                                <div className='col l2 s2'>
+                                    <a className="waves-effect waves-light btn-floating social instagram">
+                                        <i className="fa fa-instagram"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                     <div className="footer-copyright grey">
                         <div className="container center-align">&copy; 2019 Outliers</div>
                     </div>

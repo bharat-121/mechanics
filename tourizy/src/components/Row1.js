@@ -1,8 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+<<<<<<< HEAD
 import mech1 from './mech1.jpg'
 import mech2 from './mech2.jpg'
 import mech3 from './mech3.jpg'
+=======
+import mech1 from './images/mech1.jpg'
+import mech2 from './images/mech2.jpg'
+import mech3 from './images/mech3.jpg'
+>>>>>>> f49c660b5a6d46b8270d554f38d2abafcd4f63e6
 import '../App.css'
 function Row1(){
     return (

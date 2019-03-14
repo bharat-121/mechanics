@@ -1,10 +1,19 @@
 import React from 'react'
+<<<<<<< HEAD
 import ReactDOM from 'react-dom'
 
 import '../App.css'
 import mech4 from './mech4.jpg'
 import mech5 from './mech5.jpg'
 import mech6 from './mech6.jpg'
+=======
+
+
+import '../App.css'
+import mech4 from './images/mech4.jpg'
+import mech5 from './images/mech5.jpg'
+import mech6 from './images/mech6.jpg'
+>>>>>>> f49c660b5a6d46b8270d554f38d2abafcd4f63e6
 function Row2(){
     return (
         <div className="row">
